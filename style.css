@@ -19,5 +19,21 @@ body {
   width: 50px;
   height: 50px;
   padding: 5px;
-  border: 1px solid #000;
+}
+
+.snake-body {
+  background: url(img/snake.jpg);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.snake-head {
+  background: url(img/cat.jpg);
+  background-size: cover;
+  border-radius: 10%;
+}
+
+.mouse {
+  background: url(img/mouse.jpg);
+  background-size: cover;
 }
